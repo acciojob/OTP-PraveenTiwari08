@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+ body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        text-align: center;
+    }
+    h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 14px;
+        color: #666;
+    }
+    .code-container {
+        margin-top: 20px;
+    }
+    .code {
+        width: 40px;
+        height: 40px;
+        margin: 0 5px;
+        font-size: 24px;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    input[type="number"] {
+        width: 0;
+        height: 0;
+        opacity: 0;
+        position: absolute;
+    }
